@@ -1,0 +1,8 @@
+function gslocalize {
+  if [ -z "$1" ]
+    then
+      git commit -S -m 'localize: ' -e
+    else
+      git commit -S -m "localize: $1"
+  fi
+}

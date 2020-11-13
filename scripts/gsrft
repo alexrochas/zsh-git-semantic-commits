@@ -1,0 +1,8 @@
+function gsrft {
+  if [ -z "$1" ]
+    then
+      git commit -S -m 'refactor: ' -e
+    else
+      git commit -S -m "refactor: $1"
+  fi
+}

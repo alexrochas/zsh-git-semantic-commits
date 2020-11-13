@@ -1,0 +1,8 @@
+function gsdocs {
+  if [ -z "$1" ]
+    then
+      git commit -S -m 'docs: ' -e
+    else
+      git commit -S -m "docs: $1"
+  fi
+}

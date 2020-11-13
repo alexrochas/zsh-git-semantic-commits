@@ -1,0 +1,8 @@
+function gschore {
+  if [ -z "$1" ]
+    then
+      git commit -S -m 'chore: ' -e
+    else
+      git commit -S -m "chore: $1"
+  fi
+}

@@ -1,0 +1,8 @@
+function gsfix {
+  if [ -z "$1" ]
+    then
+      git commit -S -m 'fix: ' -e
+    else
+      git commit -S -m "fix: $1"
+  fi
+}

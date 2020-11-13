@@ -3,6 +3,7 @@
 Inspired by Sparkbox's awesome article on [semantic commit messages](http://seesparkbox.com/foundry/semantic_commit_messages).
 
 ## What is this?
+
 These are **very simple** custom git commands that enforce the git user to write better git commit messages. If still confused, read the article above.
 
 ## Installation:
@@ -22,19 +23,34 @@ print 'source ~/src/git-semantic-commits/git-semantic-commits.plugin.zsh' >> ~/.
 There are 8 new Git commands now.
 
 New command -> what it does:
-* ```git feat "commit-message-here"``` -> ```git commit -m 'feat: commit-message-here'```
-* ```git docs "commit-message-here"``` -> ```git commit -m 'docs: commit-message-here'```
-* ```git chore "commit-message-here"``` -> ```git commit -m 'chore: commit-message-here'```
-* ```git fix "commit-message-here"``` -> ```git commit -m 'fix: commit-message-here'```
-* ```git refactor "commit-message-here"``` -> ```git commit -m 'refactor: commit-message-here'```
-* ```git style "commit-message-here"``` -> ```git commit -m 'style: commit-message-here'```
-* ```git test "commit-message-here"``` -> ```git commit -m 'test: commit-message-here'```
-* ```git localize "commit-message-here"``` -> ```git commit -m 'localize: commit-message-here'```
+
+Commands added by [@alexrochas](https://github.com/alexrochas)
+
+-  `git feat "commit-message-here"` -> `git commit -m 'feat: commit-message-here'`
+-  `git docs "commit-message-here"` -> `git commit -m 'docs: commit-message-here'`
+-  `git chore "commit-message-here"` -> `git commit -m 'chore: commit-message-here'`
+-  `git fix "commit-message-here"` -> `git commit -m 'fix: commit-message-here'`
+-  `git refactor "commit-message-here"` -> `git commit -m 'refactor: commit-message-here'`
+-  `git style "commit-message-here"` -> `git commit -m 'style: commit-message-here'`
+-  `git test "commit-message-here"` -> `git commit -m 'test: commit-message-here'`
+-  `git localize "commit-message-here"` -> `git commit -m 'localize: commit-message-here'`
+
+Commands added by [@Kenan7](https://github.com/Kenan7)
+
+-  `gsfeat "commit-message-here"` -> `git commit -S -m 'feat: commit-message-here'`
+-  `gsdocs "commit-message-here"` -> `git commit -S -m 'docs: commit-message-here'`
+-  `gschore "commit-message-here"` -> `git commit -S -m 'chore: commit-message-here'`
+-  `gsfix "commit-message-here"` -> `git commit -S -m 'fix: commit-message-here'`
+-  `gsrft "commit-message-here"` -> `git commit -S -m 'refactor: commit-message-here'`
+-  `gstyle "commit-message-here"` -> `git commit -S -m 'style: commit-message-here'`
+-  `gstest "commit-message-here"` -> `git commit -S -m 'test: commit-message-here'`
+-  `gslocalize "commit-message-here"` -> `git commit -S -m 'localize: commit-message-here'`
 
 If you would still like to use your text editor for your commit messages
 you can omit the message, and do your commit message in your editor.
 
-* ```git feat``` -> ```git commit -m 'feat: ' -e```
+-  `git feat` -> `git commit -m 'feat: ' -e`
 
 ## How to contribute
+
 Open a pull request/issue or fork this repo and submit your changes via a pull request.

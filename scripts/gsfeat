@@ -1,0 +1,8 @@
+function gsfeat {
+  if [ -z "$1" ]
+    then
+      git commit -S -m 'feat: ' -e
+    else
+      git commit -S -m "feat: $1"
+  fi
+}
